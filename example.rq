@@ -1,16 +1,6 @@
-#+ description: Extended description of my query/operation.
-#+     This can be a more extensive than the summary and in can span
-#+     multiple lines.
-#+
-#+     Descriptions support (to some extent) [CommonMark](https://commonmark.org/help/).
 
+#+ summary: Lists all DBpedia dbo:band
+#+ endpoint: http://dbpedia.org/sparql
+#+ method: GET
 PREFIX dbo: <http://dbpedia.org/ontology/>
-PREFIX schema: <http://schema.org/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-
-SELECT ?band ?album ?genre WHERE {
-  ?band rdf:type dbo:Band .
-  ?album rdf:type schema:MusicAlbum .
-  ?band dbo:genre ?genre .
-  ?album dbo:artist ?band .
-} LIMIT 100
+SELECT DISTINCT ?s WHERE { ?s a dbo:Band }

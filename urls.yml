@@ -4,4 +4,4 @@ contact:
   url: https://github.com/thomas-delva/
 licence: https://github.com/thomas-delva/grlc-test/blob/main/LICENSE
 queries:
-  - https://github.com/thomas-delva/grlc-test/blob/main/example.rq
+  - https://raw.githubusercontent.com/thomas-delva/grlc-test/main/example.rq

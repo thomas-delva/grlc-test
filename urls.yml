@@ -2,6 +2,6 @@ title: Example API generated via URL
 contact:
   name: Thomas Delva
   url: https://github.com/thomas-delva/
-licence: https://github.com/thomas-delva/grlc-test/blob/main/LICENSE
+licence: https://raw.githubusercontent.com/thomas-delva/grlc-test/main/LICENSE
 queries:
   - https://raw.githubusercontent.com/thomas-delva/grlc-test/main/example.rq
